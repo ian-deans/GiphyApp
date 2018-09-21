@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Giphy Search</title>
+</head>
+
+<body>
+
+    <div id="root">
+        <header class="container">
+            <h1>Giphy Search</h1>
+            <p>Search the Giphy API for animated gif images.</p>
+        </header>
+
+        <nav class="container search-term-form-container">
+            <form id="search-term-form">
+                <input name="search-term" class="search-term-input">
+                <input type="submit" value="Add Button">
+            </form>
+        </nav>
+
+        <aside>
+            <section class="sidebar">
+                <button class="search-btn" data-term="googly">googly</button>
+                <button class="search-btn" data-term="butter">butter</button>
+                <button class="search-btn" data-term="shark noise">shark noise</button>
+            </section>
+        </aside>
+
+        <main>
+            <section class="container gif-images"></section>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
