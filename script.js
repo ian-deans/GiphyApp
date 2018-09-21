@@ -3,7 +3,7 @@ console.log('Script Loaded.')
 // Define Global Variables
 
   // String used to build the queryString from
-var API_STRING = 'http://api.giphy.com/v1/gifs/search?api_key=aQEL7kkkxlgFj1n4VjjY3RVRFTETGYVP&limit=10&q='
+var API_STRING = 'https://api.giphy.com/v1/gifs/search?api_key=aQEL7kkkxlgFj1n4VjjY3RVRFTETGYVP&limit=10&q='
 
   // Reference to the html input for adding a search term
 var searchTermInput = $('.search-term-input');
