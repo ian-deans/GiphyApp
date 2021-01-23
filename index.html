@@ -7,6 +7,9 @@
     <meta name="theme-color" content="#000000" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
 
@@ -16,19 +19,25 @@
 <body>
 
     <div id="root">
-        <header class="container">
+        <header>
             <h1>Giphy Search</h1>
             <p>Search the Giphy API for animated gif images.</p>
         </header>
 
-        <nav class="container search-term-form-container">
+        <!-- <nav class="container search-term-form-container">
             <form id="search-term-form">
                 <input name="search-term" class="search-term-input">
                 <input type="submit" value="Add Button">
             </form>
-        </nav>
+        </nav> -->
 
         <aside>
+            <section>
+                <form id="search-term-form">
+                    <input name="search-term" class="search-term-input">
+                    <input class="add-btn" type="submit" value="Add Button">
+                </form>
+            </section>
             <section class="sidebar">
                 <button class="search-btn" data-term="googly">googly</button>
                 <button class="search-btn" data-term="butter">butter</button>
@@ -48,4 +57,3 @@
 </body>
 
 </html>
-
